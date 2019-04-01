@@ -31,6 +31,7 @@ void loop() {
 
 if (boton_presionado());
 {
+  digitalWrite(Led,HIGH);
   contador++;
   Serial.print(contador);
 }
